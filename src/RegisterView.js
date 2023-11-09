@@ -18,7 +18,7 @@ export default class RegisterView extends Component {
   };
 
   static navigationOptions = {
-    title: "Registro",
+    headerTitle: () => <Text style={styles.headerTop}>Registro</Text>,
     headerLeft: () => (
       <TouchableOpacity onPress={() => Actions.pop()}>
         <Text style={{ marginLeft: 20 }}>Volver</Text>

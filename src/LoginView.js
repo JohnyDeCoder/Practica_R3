@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   image: {
     width: 300,
     height: 200,
-    marginBottom: 20,
+    marginBottom: 10,
     marginTop: 50,
   },
   input: {
@@ -124,11 +124,6 @@ const styles = StyleSheet.create({
     textAlign: "left",
     width: "80%",
     marginTop: 10,
-  },
-  muted: {
-    color: "#999",
-    fontSize: 12,
-    marginTop: 20,
   },
   link: {
     color: "#007BFF",
